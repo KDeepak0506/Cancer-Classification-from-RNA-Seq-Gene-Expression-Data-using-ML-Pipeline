@@ -1,0 +1,25 @@
+
+===== RANDOM FOREST =====
+Accuracy: 0.9962655279503106
+Precision: 0.9963661640132566
+Recall: 0.9962655279503106
+F1: 0.9962575042661939
+
+              precision    recall  f1-score   support
+
+        BRCA       0.99      1.00      1.00       300
+        COAD       1.00      1.00      1.00        78
+        KIRC       1.00      0.99      1.00       146
+        LUAD       1.00      0.99      0.99       141
+        PRAD       1.00      1.00      1.00       136
+
+    accuracy                           1.00       801
+   macro avg       1.00      1.00      1.00       801
+weighted avg       1.00      1.00      1.00       801
+
+Confusion Matrix:
+[[300   0   0   0   0]
+ [  0  78   0   0   0]
+ [  1   0 145   0   0]
+ [  2   0   0 139   0]
+ [  0   0   0   0 136]]
