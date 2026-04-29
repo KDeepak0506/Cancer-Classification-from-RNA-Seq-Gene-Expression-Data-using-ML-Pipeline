@@ -20,13 +20,6 @@ impact performance in complex biological datasets.
 
 ---
 
-## ❓ Problem Statement
-
-Can we accurately classify cancer types using high-dimensional gene expression data,  
-and how does dimensionality reduction impact model performance?
-
----
-
 ## ⚡ Quick Start
 
 ```bash
