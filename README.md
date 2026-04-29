@@ -83,7 +83,7 @@ dataset/raw/
 ### 📌 PCA Visualization (Cluster Formation)
 
 <p align="center">
-  <img src="results/Cluster_Formation_of_Classes.png" width="100%">
+  <img src="results/Cluster_Formation_of_Classes.png" width="70%">
 </p>
 
 ---
@@ -91,7 +91,7 @@ dataset/raw/
 ### 📉 Feature Selection vs Accuracy
 
 <p align="center">
-  <img src="results/feature_vs_accuracy.png" width="100%">
+  <img src="results/feature_vs_accuracy.png" width="70%">
 </p>
 
 ---
@@ -99,7 +99,7 @@ dataset/raw/
 ### 📊 Class Distribution
 
 <p align="center">
-  <img src="results/Class_Distribution.png" width="100%">
+  <img src="results/Class_Distribution.png" width="70%">
 </p>
 
 ---
@@ -107,7 +107,7 @@ dataset/raw/
 ### 📊 Random Forest Confusion Matrix
 
 <p align="center">
-  <img src="results/rf_confusion_matrix.png" width="100%">
+  <img src="results/rf_confusion_matrix.png" width="70%">
 </p>
 
 ---
