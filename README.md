@@ -103,17 +103,34 @@ Distribution of different cancer types in the dataset.
 ```
 project/
 │
-├── src/
-│   ├── model.py              # Model definitions
-│   ├── train.py              # Training pipeline
-│   ├── evaluate.py           # Evaluation metrics
-│   ├── feature_selection.py  # Feature selection experiments
-│   └── data_loader.py        # Dataset loader
+├── models/                     # Saved trained models
+│   ├── rf_model.pkl           # Random Forest model
+│   ├── svm_model.pkl          # Support Vector Machine model
+│   └── scaler.pkl             # Feature scaler (for SVM)
 │
-├── models/                   # Saved models (joblib)
-├── results/                  # Metrics & plots
-├── requirements.txt
-└── README.md
+├── notebooks/                 # Jupyter notebooks for experimentation
+│   └── exploratory_analysis.ipynb
+│
+├── results/                   # Outputs (plots, metrics, reports)
+│   ├── rf_results.txt
+│   ├── svm_results.txt
+│   ├── rf_confusion_matrix.png
+│   ├── svm_confusion_matrix.png
+│   ├── feature_vs_accuracy.png
+│   ├── Class_Distribution.png
+│   └── Cluster_Formation_of_Classes.png
+│
+├── src/                       # Source code (modular ML pipeline)
+│   ├── __init__.py
+│   ├── data_loader.py         # Load and preprocess dataset
+│   ├── model.py               # Model definitions (RF, SVM)
+│   ├── train.py               # Training pipeline
+│   ├── evaluate.py            # Model evaluation + metrics
+│   └── feature_selection.py   # Feature selection experiments
+│
+├── .gitignore                 # Ignored files (env, dataset, etc.)
+├── README.md                  # Project documentation
+└── requirements.txt           # Dependencies
 ```
 
 ---
